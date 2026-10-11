@@ -1,14 +1,14 @@
-package es.bluesolution.railway_framework.framework.functional_framework.testing;
+package es.bluesolution.rop.test;
 
-import es.bluesolution.railway_framework.framework.functional_framework.FailureResultDescription;
-import es.bluesolution.railway_framework.framework.functional_framework.Result;
+import es.bluesolution.rop.core.FailureResultDescription;
+import es.bluesolution.rop.core.Result;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.AssertionFailedError;
 
-import static es.bluesolution.railway_framework.framework.functional_framework.FailureResultDescription.ErrorCode.*;
-import static es.bluesolution.railway_framework.framework.functional_framework.testing.ResultAssertions.*;
+import static es.bluesolution.rop.core.FailureResultDescription.ErrorCode.*;
+import static es.bluesolution.rop.test.ResultAssertions.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**

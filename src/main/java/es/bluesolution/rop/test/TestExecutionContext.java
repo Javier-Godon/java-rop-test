@@ -1,7 +1,7 @@
-package es.bluesolution.railway_framework.framework.functional_framework.testing;
+package es.bluesolution.rop.test;
 
-import es.bluesolution.railway_framework.framework.functional_framework.Result;
-import es.bluesolution.railway_framework.framework.functional_framework.execution.ExecutionContext;
+import es.bluesolution.rop.core.Result;
+import es.bluesolution.rop.core.execution.ExecutionContext;
 import org.jspecify.annotations.NullMarked;
 
 import java.util.function.Supplier;
@@ -31,8 +31,8 @@ import java.util.function.Supplier;
  * The IMMEDIATE constant is preferred for most tests as it clearly indicates
  * that the computation executes synchronously without any delays or wrapping.
  *
- * @see es.bluesolution.railway_framework.framework.functional_framework.execution.NoOpExecutionContext
- * @see es.bluesolution.railway_framework.framework.functional_framework.execution.TransactionExecutionContext
+ * @see es.bluesolution.rop.core.execution.NoOpExecutionContext
+ * @see es.bluesolution.rop.spring.execution.TransactionExecutionContext
  */
 @NullMarked
 public final class TestExecutionContext implements ExecutionContext {

@@ -1,8 +1,8 @@
-package es.bluesolution.railway_framework.framework.functional_framework.testing;
+package es.bluesolution.rop.test;
 
-import es.bluesolution.railway_framework.framework.functional_framework.FailureResultDescription;
-import es.bluesolution.railway_framework.framework.functional_framework.FailureResultDescription.ErrorCode;
-import es.bluesolution.railway_framework.framework.functional_framework.Result;
+import es.bluesolution.rop.core.FailureResultDescription;
+import es.bluesolution.rop.core.FailureResultDescription.ErrorCode;
+import es.bluesolution.rop.core.Result;
 
 import static org.junit.jupiter.api.Assertions.*;
 
